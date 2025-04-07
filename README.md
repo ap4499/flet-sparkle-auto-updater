@@ -26,7 +26,7 @@ dependencies = [
 
 1.  **Import the control:**
 ```python
-from flet_sparkle_auto_updater import SparkleAutoUpdater
+from sparkle_auto_updater import SparkleAutoUpdater
 ```
 
 2.  **Instantiate and add to overlay:**
