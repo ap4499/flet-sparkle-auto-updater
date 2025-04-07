@@ -19,6 +19,15 @@ dependencies = [
 ]
 ```
 
+Install via PIP:
+
+```pip install "flet-sparkle-auto-updater @ git+https://github.com/ap4499/flet-sparkle-auto-updater.git"```
+
+Requirements.txt:
+
+```flet-sparkle-auto-updater @ git+https://github.com/ap4499/flet-sparkle-auto-updater.git```
+
+
 
 ## Basic Usage
 
