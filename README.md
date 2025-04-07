@@ -72,6 +72,31 @@ build_number = 2 # This is "Bundle version". It is used by Sparkle as the compar
 # It is recommended to use an Integer. Advanced users can see Sparkle documentation to see how semantic versioning works.
 ```
 
+6.  **Sparkle notes:**
+- When SUEnableAutomaticChecks is set to True, Sparkle will automatically try to update the application (when it is run). The user can override this within the pop-up.
+
+7.  **Dev commands:**
+Sparkle automatically creates defaults. During development you may wish to reset these, to check behaviour.
+
+Read variables example (MacOS terminal):
+```defaults read com.mycompany.sparkle-auto-updater-example```
+
+example response:
+```
+{
+    SUAutomaticallyUpdate = 1;
+    SUEnableAutomaticChecks = 1;
+    SUHasLaunchedBefore = 1;
+    SULastCheckTime = "2025-04-07 12:30:13 +0000";
+    SUSendProfileInfo = 0;
+    SUSkippedVersion = 3;
+    SUUpdateGroupIdentifier = 351040012;
+}
+```
+
+
+Delete all defaults:
+```defaults delete com.mycompany.sparkle-auto-updater-example```
 
 
 ## License Information and Dependencies
