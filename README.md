@@ -35,7 +35,7 @@ Make sure to replace "YOUR_APPCAST_FEED_URL_HERE" with your actual Sparkle feed 
 # Inside your main Flet function (e.g., main(page: ft.Page))
 updater = SparkleAutoUpdater(feed_url="YOUR_APPCAST_FEED_URL_HERE")
 page.overlay.append(updater)
-page.update() # Ensure overlay is updated
+page.update()
 ```
 
 3.  **Check for updates when needed:**
