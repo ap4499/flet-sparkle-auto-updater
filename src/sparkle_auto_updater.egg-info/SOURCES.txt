@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/flutter/sparkle_auto_updater/CHANGELOG.md
+src/flutter/sparkle_auto_updater/LICENSE
+src/flutter/sparkle_auto_updater/README.md
+src/flutter/sparkle_auto_updater/pubspec.lock
+src/flutter/sparkle_auto_updater/pubspec.yaml
+src/flutter/sparkle_auto_updater/lib/sparkle_auto_updater.dart
+src/flutter/sparkle_auto_updater/lib/src/create_control.dart
+src/flutter/sparkle_auto_updater/lib/src/sparkle_auto_updater.dart
+src/sparkle_auto_updater/__init__.py
+src/sparkle_auto_updater/sparkle_auto_updater.py
+src/sparkle_auto_updater.egg-info/PKG-INFO
+src/sparkle_auto_updater.egg-info/SOURCES.txt
+src/sparkle_auto_updater.egg-info/dependency_links.txt
+src/sparkle_auto_updater.egg-info/requires.txt
+src/sparkle_auto_updater.egg-info/top_level.txt

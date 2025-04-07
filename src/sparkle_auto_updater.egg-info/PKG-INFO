@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: sparkle-auto-updater
+Version: 1.0.0
+Summary: SparkleAutoUpdater control for Flet
+Author-email: Alex Proctor <you@example.com>
+Project-URL: Homepage, https://github.com/ap4499/flet-sparkle-auto-updater
+Project-URL: Documentation, https://github.com/ap4499/flet-sparkle-auto-updater
+Project-URL: Repository, https://github.com/ap4499/flet-sparkle-auto-updater
+Project-URL: Issues, https://github.com/ap4499/flet-sparkle-auto-updater
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: flet>=0.27.6
+
+# sparkle-auto-updater
+SparkleAutoUpdater control for Flet
+
+## Installation
+
+Add dependency to `pyproject.toml` of your Flet app:
+
+* **Git dependency**
+
+Link to git repository:
+
+```
+dependencies = [
+  "sparkle-auto-updater @ git+https://github.com/ap4499/flet-sparkle-auto-updater",
+  "flet>=0.27.6",
+]
+```
+
+* **PyPi dependency**  
+
+If the package is published on pypi.org:
+
+```
+dependencies = [
+  "sparkle-auto-updater",
+  "flet>=0.27.6",
+]
+```
+
+Build your app:
+```
+flet build macos -v
+```
+
+## Documentation
+
+[Link to documentation](https://MyGithubAccount.github.io/sparkle-auto-updater/)

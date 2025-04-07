@@ -1,0 +1,2 @@
+flutter
+sparkle_auto_updater
