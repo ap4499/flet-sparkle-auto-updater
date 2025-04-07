@@ -1,5 +1,5 @@
 [project]
-name = "sparkle-auto-updater"
+name = "flet-sparkle-auto-updater"
 version = "1.0.0"
 description = "SparkleAutoUpdater control for Flet"
 readme = "README.md"
