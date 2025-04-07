@@ -1,16 +1,27 @@
 # flet-sparkle-auto-updater
-Sparkle for Flet
 
-## License
+Sparkle integration for Flet applications, enabling automatic updates.
 
-This project is licensed under the **BSD 2-Clause License** (Simplified BSD).
+## Dependencies and Included Licenses
 
-**Key Requirements & Permissions:**
+This project utilizes or is derived from code from the following upstream projects:
 
-* **Attribution First:** The main condition of this license is attribution. If you redistribute this software (in source or binary form), you **must** retain the original copyright notice and the license text. Please ensure **[Alex Proctor: https://github.com/ap4499/flet-sparkle-auto-updater/]** is clearly credited as the original source in your derivative work or documentation.
-* **Freedom to Use:** With the attribution requirement met, you are free to use, modify, copy, distribute, and sublicense the software for any purpose, including commercial use.
-* **No Warranty:** The software is provided "AS IS", without warranty of any kind.
+* **Sparkle Project:** [https://github.com/sparkle-project/Sparkle/](https://github.com/sparkle-project/Sparkle/)
+* **leanflutter/auto_updater:** [https://github.com/leanflutter/auto_updater](https://github.com/leanflutter/auto_updater)
 
-Proper attribution is the primary requirement – thank you for respecting the original work!
+In accordance with their licensing terms, the required copyright notices and license texts for these dependencies are included in this distribution. Please see the following files:
 
-For the full license text, see the `LICENSE` file in this repository.
+* `LICENSE (sparkle-project:Sparkle).txt`
+* `LICENSE (leanflutter:auto_updater).txt`
+
+## License for this Project
+
+This project (`flet-sparkle-auto-updater`) is licensed under the **BSD 2-Clause License** ("Simplified BSD").
+
+The full license text can be found in the `LICENSE` file in this repository.
+
+**Key Terms:**
+
+* You are free to use, modify, and redistribute the code (in source or binary forms).
+* You **must** retain the original copyright notice (`Copyright (c) 2025, Alex Proctor`) and the license text in redistributions.
+* The software is provided "AS IS", without warranty.
