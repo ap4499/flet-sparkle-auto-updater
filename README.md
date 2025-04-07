@@ -14,9 +14,7 @@ Link directly to this git repository:
 
 ```toml
 dependencies = [
-  # Make sure the URL points to your repository
-  "flet-sparkle-auto-updater @ git+[https://github.com/ap4499/flet-sparkle-auto-updater",
-  # Ensure compatible Flet version if needed
+  "flet-sparkle-auto-updater @ git+https://github.com/ap4499/flet-sparkle-auto-updater.git",
   "flet>=0.27.6",
 ]
 ```
